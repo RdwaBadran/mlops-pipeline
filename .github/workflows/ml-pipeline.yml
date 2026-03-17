@@ -7,9 +7,9 @@ on:
   pull_request:
 
 jobs:
-validate-and-test:
-runs-on: ubuntu-latest
-steps:
+  validate-and-test:
+    runs-on: ubuntu-latest
+    steps:
 - name: Set up Python
 uses: actions/setup-python@v5
 with:
